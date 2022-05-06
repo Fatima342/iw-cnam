@@ -1,0 +1,200 @@
+@media screen {
+body{
+	font-size: 100%
+    font-family: Source code pro, arial narrow, Sans cherif;/*police de caractere*/
+
+    background-color: #EDEDED;/*couleur de fond de page*/
+	margin-left: auto; /* pour centrer notre body ou autre bloc - marge "auto" et indiquer un width*/
+	margin-right: auto; /* pour centrer notre body ou autre bloc - marge "auto" et indiquer un width*/
+	width: 80%; /* pour centrer notre body ou autre bloc - marge "auto" et indiquer un width*/
+}				
+}
+
+header{
+	width: 100%;
+	vertical-align: center;
+	border:10px solid #CCC;
+	border-radius: 10px;
+}
+
+@media screen{
+#banniere{
+	background-image: url("LOGO-CNAM-RA.gif");
+	height: 150px;
+	width: 55%;
+	margin: auto;
+}
+
+}
+h1 {font-size: 3em;}
+
+@media screen{
+h1 {
+    font-size: 2.5em;
+	color: #FD6C9E;
+ }
+}  
+/*
+h1{
+    color: #FD6C9E;
+    font-size: 60%;
+	line-height: 3px;
+}
+*/
+h2{
+    color: #0000FF;
+    font-size: 28px;
+
+}
+
+p{
+    color: #811453;
+	font-size: 18px;
+	text-align: justify;
+}
+
+ul{
+    color: #0000FF;
+	font-size: 20px;
+	margin-left: 0;
+}
+
+li{
+    color: #FD6C9E;
+	margin-left: 7px;
+}
+
+ol{
+    color: #614E1A;
+}
+
+a{
+    color:#FD6C9E;
+    font-size: 22px;          
+}
+
+@media screen {
+table{
+	border-collapse: collapse;/*pour fusionner les bordures de tour de tableau et de cellules- */
+	border: ridge 1.5px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+
+caption{
+	font-size: 30px;
+	color: #FD6C9E;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+th{
+	/*border: 2px solid red;*/
+	background-color: #9E9E9E;
+	height: 45px;
+	border: ridge 1.5px;
+	color: #EFEFEF;
+}
+
+#interv{
+	background-color: yellow;	
+}
+
+#tel{
+	background-color: green;
+}
+
+tr{
+	/*border: 2px solid red;*/
+	border: ridge 1.5px #FD6C9E;
+}
+
+td{/*cellule du tableau*/
+   /* border: 2px solid red;largeur de la bordure, sorte de trait, couleur du trait*/
+    background-color: white;/*couleur de fond de la premiere ligne du tableau*/
+     font-size: 20px;
+	vertical-align: middle;
+	text-align: left;
+	/*border: 2px solid red;*/
+	border: ridge 1.2px #FD6C9E;
+}
+
+
+ #fondgris{
+	 background: grey;
+ }
+
+thead, /*en tete du tableau*/
+
+tfoot{
+    background-color: #800080;
+    color: #FEFEFE;
+    border: 2px;
+    height: 50px;
+    font-size: 50px;
+}
+}
+nav {
+	padding: 0; margin: 0;/* espace entre la marge du haut et le menu*/
+	text-align: center; /* centre le texte */
+	
+}
+nav li {
+	display: inline;
+	list-style: none; /* nécessaire pour IE7 */
+}
+
+nav a {
+	display: inline-block;
+	margin: 0 40 3 40px;
+	background: Black; /* couleur de fond */
+	width: 120px;
+	text-decoration: none; /* pas d'héritage avec effet souligné */
+	color: yellow; /* couleur du texte */
+	height: 30px; /* hauteur */
+	line-height: 3 50 3 50px; /* interligne */
+	padding: 0 50px; /* marges intérieur */
+	font-family: sans-serif; /* police d'écriture */
+	font-size: 28px; /* taille du texte */
+}
+
+nav  a:hover:first-child{ 
+	background: #FD6C9E; 
+}
+
+#header {
+  height:300px;
+  background-image:url(image_sport.jpg);
+  border:30px solid #CCC;
+  width:100%;
+  /*margin:0px auto;
+  position: relative;*/
+}
+/*
+#header h1{
+  color:black;
+  text-align: center
+}
+*/
+ 
+footer {
+	background: black;	
+	width:97%;
+	justify-content: center; /* Centrer horizontalement */
+	display: flex;
+	padding: 30px;
+	margin-left: auto; /* pour centrer notre body ou autre bloc - marge "auto" et indiquer un width*/
+	margin-right: auto; /* pour centrer notre body ou autre bloc - marge "auto" et indiquer un width*/
+	/*margin:0px auto;
+	position: relative;*/
+}
+ 
+#p1 {
+	font-size: 28px;
+	color: white;
+}
+ 
+
+ 
